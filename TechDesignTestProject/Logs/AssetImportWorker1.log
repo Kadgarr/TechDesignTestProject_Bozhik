@@ -1,0 +1,275 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.17763) 64bit Core' Language: 'ru' Physical Memory: 16232 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/MAXIM/TechDesignTestProject_Bozhik/TechDesignTestProject
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49238
+Successfully changed project path to: C:/Users/MAXIM/TechDesignTestProject_Bozhik/TechDesignTestProject
+C:/Users/MAXIM/TechDesignTestProject_Bozhik/TechDesignTestProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21204] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1282649514 [EditorId] 1282649514 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-USVKUS7U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21204] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1282649514 [EditorId] 1282649514 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-USVKUS7U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 171.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/MAXIM/TechDesignTestProject_Bozhik/TechDesignTestProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5979 MB
+    Driver:   31.0.15.2756
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008924 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 145.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.010 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1011ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (736ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (456ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (146ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (224ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.041846 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\MAXIM\TechDesignTestProject_Bozhik\TechDesignTestProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\MAXIM\TechDesignTestProject_Bozhik\TechDesignTestProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 150.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.884 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1885ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1487ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (775ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (150ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (376ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4045 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (229.4 KB). Loaded Objects now: 4495.
+Memory consumption went from 150.7 MB to 150.4 MB.
+Total: 4.832800 ms (FindLiveObjects: 0.396700 ms CreateObjectMapping: 0.330700 ms MarkObjects: 3.890100 ms  DeleteObjects: 0.214200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1171257.899669 seconds.
+  path: Assets/Audio/Sounds/AnyConv.com__DM-CGS-02.ogg
+  artifactKey: Guid(f83df82cb472d344a9696d31437e48bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/AnyConv.com__DM-CGS-02.ogg using Guid(f83df82cb472d344a9696d31437e48bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4755dae0079b5761407eed7910d5dd11') in 0.184716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Audio/Sounds/AnyConv.com__DM-CGS-35.ogg
+  artifactKey: Guid(5a627f360490a064ba01ebf7cf780722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/AnyConv.com__DM-CGS-35.ogg using Guid(5a627f360490a064ba01ebf7cf780722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd23b7312eba7d8074b30999944cd55') in 0.014775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Audio/Sounds/AnyConv.com__DM-CGS-12.ogg
+  artifactKey: Guid(317ed4e5e04318f44ad884131f0e02c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/AnyConv.com__DM-CGS-12.ogg using Guid(317ed4e5e04318f44ad884131f0e02c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8f26909058b89828e0934c003ca96a') in 0.013705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Audio/Sounds/AnyConv.com__DM-CGS-20.ogg
+  artifactKey: Guid(4e8af2a50217d3840a8e13b9bb6e40a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/AnyConv.com__DM-CGS-20.ogg using Guid(4e8af2a50217d3840a8e13b9bb6e40a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac4af92cf67d7ea5bc662e86bcd0178') in 0.015483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Audio/Sounds/AnyConv.com__DM-CGS-17.ogg
+  artifactKey: Guid(1195054e7d1e13243b5d207906b4c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/AnyConv.com__DM-CGS-17.ogg using Guid(1195054e7d1e13243b5d207906b4c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a28ef982042dbf43ab6a75af10fa03') in 0.018283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Audio/Sounds/AnyConv.com__DM-CGS-28.ogg
+  artifactKey: Guid(02210d1e0000a294d9681b269352f227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/AnyConv.com__DM-CGS-28.ogg using Guid(02210d1e0000a294d9681b269352f227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f89c8c567a91b0321ccb688479c40c7') in 0.015825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Audio/Sounds/AnyConv.com__DM-CGS-30.ogg
+  artifactKey: Guid(bf46f9bd44281b04cb3141e52df2a4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/AnyConv.com__DM-CGS-30.ogg using Guid(bf46f9bd44281b04cb3141e52df2a4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeed320893f5187ed0232daea6646362') in 0.026086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Audio/Sounds/AnyConv.com__DM-CGS-31.ogg
+  artifactKey: Guid(6dbf763df00151649b986516f6cc15e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/AnyConv.com__DM-CGS-31.ogg using Guid(6dbf763df00151649b986516f6cc15e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb35cca072aa072cc1f680bcc41cc13') in 0.015549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Audio/Sounds/AnyConv.com__DM-CGS-04.ogg
+  artifactKey: Guid(a8fa4034bc4fdee4ea7b380ad6cfb5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/AnyConv.com__DM-CGS-04.ogg using Guid(a8fa4034bc4fdee4ea7b380ad6cfb5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f458d4fbf9250e51d1e7f5ed28d347') in 0.015493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Audio/Sounds/AnyConv.com__DM-CGS-22.ogg
+  artifactKey: Guid(d388ea529dced234f87c75e4332db9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/AnyConv.com__DM-CGS-22.ogg using Guid(d388ea529dced234f87c75e4332db9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190e7c9cac95a6f9ce8e5845f76fb2b1') in 0.012780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Audio/Sounds/AnyConv.com__DM-CGS-13.ogg
+  artifactKey: Guid(9deb7731fd1707f41916a24a90c2f00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/AnyConv.com__DM-CGS-13.ogg using Guid(9deb7731fd1707f41916a24a90c2f00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a50ad6ef19cd56fa49b01ddf496ed9') in 0.015429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Audio/Sounds/AnyConv.com__DM-CGS-29.ogg
+  artifactKey: Guid(d7346a92122b96a4ebf57c760db07f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/AnyConv.com__DM-CGS-29.ogg using Guid(d7346a92122b96a4ebf57c760db07f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d507d1802953f4bc9a88371fd16cad') in 0.015731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Audio/Sounds/AnyConv.com__DM-CGS-16.ogg
+  artifactKey: Guid(d134e0e47abb6484ab49bd8ccb2bbbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/AnyConv.com__DM-CGS-16.ogg using Guid(d134e0e47abb6484ab49bd8ccb2bbbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4073e312005e9bbb6aa6ea536df5952') in 0.018353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Audio/Sounds/AnyConv.com__DM-CGS-38.ogg
+  artifactKey: Guid(dedf19847ce4fd643bc5dbb2bf67b323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/AnyConv.com__DM-CGS-38.ogg using Guid(dedf19847ce4fd643bc5dbb2bf67b323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad6af0491f7fa3f660f521265454576') in 0.014381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Audio/Sounds/AnyConv.com__DM-CGS-18.ogg
+  artifactKey: Guid(6f865dda670c3ac4ca72092478117eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/AnyConv.com__DM-CGS-18.ogg using Guid(6f865dda670c3ac4ca72092478117eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defd6ab70808161543b92a7b6eb7adec') in 0.014775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Audio/Sounds/AnyConv.com__DM-CGS-33.ogg
+  artifactKey: Guid(0c1da6c37e7d0a547934b1798f056f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/AnyConv.com__DM-CGS-33.ogg using Guid(0c1da6c37e7d0a547934b1798f056f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5431b970780a2af123de28b21c6d2b8') in 0.013957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Audio/Sounds/AnyConv.com__DM-CGS-06.ogg
+  artifactKey: Guid(b2a4981b9b9698b409b82c23eee20d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/AnyConv.com__DM-CGS-06.ogg using Guid(b2a4981b9b9698b409b82c23eee20d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d928d20e48594cba59d500fe286dc0') in 0.013955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.844263 seconds.
+  path: Assets/Audio/Music/BGM_03.ogg
+  artifactKey: Guid(be0354ccb8d654c41a445c050c245d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/BGM_03.ogg using Guid(be0354ccb8d654c41a445c050c245d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d97c670964f7955e76d7083b6247eed') in 0.013582 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
