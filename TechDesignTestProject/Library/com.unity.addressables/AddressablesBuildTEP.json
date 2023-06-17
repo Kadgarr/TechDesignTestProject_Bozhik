@@ -1,0 +1,129 @@
+{
+"Date": "17.06.2023 16:18:54",
+"UnityVersion": "2021.3.15f1",
+"com.unity.scriptablebuildpipeline": "1.20.1",
+"com.unity.addressables": "1.19.19",
+"traceEvents": [
+{"name": "Building Default Build Script", "ph": "X", "dur": 3038352.4, "tid": 1, "ts": 131, "pid": 1}
+,{"name": "ProcessAllGroups", "ph": "X", "dur": 10592.2, "tid": 1, "ts": 310, "pid": 1}
+,{"name": "ContentPipeline.BuildAssetBundles", "ph": "X", "dur": 3004875.9, "tid": 1, "ts": 10980, "pid": 1}
+,{"name": "AssetDatabase.SaveAssets", "ph": "X", "dur": 7286.2, "tid": 1, "ts": 12419, "pid": 1}
+,{"name": "SwitchToBuildPlatform", "ph": "X", "dur": 14.7999999999975, "tid": 1, "ts": 21639, "pid": 1}
+,{"name": "RebuildSpriteAtlasCache", "ph": "X", "dur": 29470.2, "tid": 1, "ts": 21700, "pid": 1}
+,{"name": "BuildPlayerScripts", "ph": "X", "dur": 2831264.5, "tid": 1, "ts": 51258, "pid": 1}
+,{"name": "PostScriptsCallback", "ph": "X", "dur": 3.29999999985375, "tid": 1, "ts": 2882829, "pid": 1}
+,{"name": "CalculateSceneDependencyData", "ph": "X", "dur": 1.39999999964857, "tid": 1, "ts": 2882932, "pid": 1}
+,{"name": "CalculateAssetDependencyData", "ph": "X", "dur": 13684.2000000001, "tid": 1, "ts": 2883031, "pid": 1}
+,{"name": "Gathering Cache Entries to Load", "ph": "X", "dur": 13635.0000000002, "tid": 1, "ts": 2883035, "pid": 1, "args": {"0":"Local Cache hit count: 7, Cache Server hit count: 0"}}
+,{"name": "LoadCachedData", "ph": "X", "dur": 11003.9999999999, "tid": 1, "ts": 2883245, "pid": 1, "args": {"0":"7 items", "1":"Time spent deserializing: 10ms", "2":"Local Cache hit count: 7"}}
+,{"name": "Read and deserialize cache info", "ph": "X", "dur": 10989.9999999998, "tid": 1, "ts": 2883251, "pid": 1}
+,{"name": "Check for changed dependencies", "ph": "X", "dur": 2417.89999999992, "tid": 1, "ts": 2894249, "pid": 1, "args": {"0":"Unchanged dependencies count: 7"}}
+,{"name": "Calculate Asset Dependencies", "ph": "X", "dur": 6.49999999995998, "tid": 1, "ts": 2896671, "pid": 1, "args": {"0":"aa1cc2c28de52034bb95d7d7575c0ac0 (cached)"}}
+,{"name": "Calculate Asset Dependencies", "ph": "X", "dur": 2.89999999995416, "tid": 1, "ts": 2896678, "pid": 1, "args": {"0":"3d786901a0611af4fbc619c911c9fae4 (cached)"}}
+,{"name": "Calculate Asset Dependencies", "ph": "X", "dur": 2.60000000025684, "tid": 1, "ts": 2896681, "pid": 1, "args": {"0":"d683c1b1fa6b28a40a98b3143a9080d4 (cached)"}}
+,{"name": "Calculate Asset Dependencies", "ph": "X", "dur": 3.90000000015789, "tid": 1, "ts": 2896684, "pid": 1, "args": {"0":"73bb7a3bf7fc46c459a0cea5daa587df (cached)"}}
+,{"name": "Calculate Asset Dependencies", "ph": "X", "dur": 2.89999999995416, "tid": 1, "ts": 2896688, "pid": 1, "args": {"0":"b234c9e4cb2b3f94ca468c17e384548a (cached)"}}
+,{"name": "Calculate Asset Dependencies", "ph": "X", "dur": 3.60000000000582, "tid": 1, "ts": 2896691, "pid": 1, "args": {"0":"f3405fb22078ffb4499257a61984d637 (cached)"}}
+,{"name": "Calculate Asset Dependencies", "ph": "X", "dur": 4.00000000036016, "tid": 1, "ts": 2896695, "pid": 1, "args": {"0":"22ecaf4a5ff7d6a40ae2fd1efbc6e23f (cached)"}}
+,{"name": "Gathering Cache Entries to Save", "ph": "X", "dur": 2.40000000030705, "tid": 1, "ts": 2896700, "pid": 1}
+,{"name": "AddHashToBundleNameTask", "ph": "X", "dur": 1.29999999990105, "tid": 1, "ts": 2896850, "pid": 1}
+,{"name": "StripUnusedSpriteSources", "ph": "X", "dur": 1.40000000010332, "tid": 1, "ts": 2896914, "pid": 1}
+,{"name": "CreateBuiltInShadersBundle", "ph": "X", "dur": 11.1000000001695, "tid": 1, "ts": 2896966, "pid": 1}
+,{"name": "PostDependencyCallback", "ph": "X", "dur": 0.700000000051659, "tid": 1, "ts": 2897027, "pid": 1}
+,{"name": "GenerateBundlePacking", "ph": "X", "dur": 767.100000000028, "tid": 1, "ts": 2897082, "pid": 1}
+,{"name": "UpdateBundleObjectLayout", "ph": "X", "dur": 1.39999999964857, "tid": 1, "ts": 2897943, "pid": 1}
+,{"name": "GenerateBundleCommands", "ph": "X", "dur": 992.099999999937, "tid": 1, "ts": 2898017, "pid": 1}
+,{"name": "GenerateSubAssetPathMaps", "ph": "X", "dur": 0.999999999748979, "tid": 1, "ts": 2899085, "pid": 1}
+,{"name": "GenerateBundleMaps", "ph": "X", "dur": 80.199999999877, "tid": 1, "ts": 2899140, "pid": 1}
+,{"name": "Temporary Map Creations", "ph": "X", "dur": 43.0000000001201, "tid": 1, "ts": 2899140, "pid": 1}
+,{"name": "Populate BuildReferenceMaps", "ph": "X", "dur": 20.8999999999833, "tid": 1, "ts": 2899184, "pid": 1}
+,{"name": "Populate BuildUsageTagSet", "ph": "X", "dur": 14.5999999999731, "tid": 1, "ts": 2899205, "pid": 1}
+,{"name": "PostPackingCallback", "ph": "X", "dur": 1.19999999969878, "tid": 1, "ts": 2899283, "pid": 1}
+,{"name": "WriteSerializedFiles", "ph": "X", "dur": 12929.0999999998, "tid": 1, "ts": 2899361, "pid": 1}
+,{"name": "RunCachedOperation", "ph": "X", "dur": 12920.6000000004, "tid": 1, "ts": 2899369, "pid": 1, "args": {"0":"Total Entries: 5, Processed: 0, Cached: 5"}}
+,{"name": "Creating Cache Entries", "ph": "X", "dur": 2409.30000000026, "tid": 1, "ts": 2899371, "pid": 1}
+,{"name": "GetCacheEntry", "ph": "X", "dur": 628.400000000056, "tid": 1, "ts": 2899373, "pid": 1, "args": {"0":"CAB-f71f9f1ac0f611a040cf25d6aa96d5c7"}}
+,{"name": "Gather Objects AssetBundleWriteOperation", "ph": "X", "dur": 335.000000000036, "tid": 1, "ts": 2899392, "pid": 1, "args": {"0":"CAB-f71f9f1ac0f611a040cf25d6aa96d5c7"}}
+,{"name": "Hashing Command", "ph": "X", "dur": 37.8000000000611, "tid": 1, "ts": 2899727, "pid": 1, "args": {"0":"CAB-f71f9f1ac0f611a040cf25d6aa96d5c7"}}
+,{"name": "Hashing UsageSet", "ph": "X", "dur": 1.39999999964857, "tid": 1, "ts": 2899765, "pid": 1, "args": {"0":"CAB-f71f9f1ac0f611a040cf25d6aa96d5c7"}}
+,{"name": "Hashing ReferenceMap", "ph": "X", "dur": 3.99999999990541, "tid": 1, "ts": 2899767, "pid": 1, "args": {"0":"CAB-f71f9f1ac0f611a040cf25d6aa96d5c7"}}
+,{"name": "Hashing Info", "ph": "X", "dur": 33.8000000001557, "tid": 1, "ts": 2899771, "pid": 1, "args": {"0":"CAB-f71f9f1ac0f611a040cf25d6aa96d5c7"}}
+,{"name": "Hashing Objects", "ph": "X", "dur": 110.699999999724, "tid": 1, "ts": 2899806, "pid": 1, "args": {"0":"CAB-f71f9f1ac0f611a040cf25d6aa96d5c7"}}
+,{"name": "GetCacheEntry", "ph": "X", "dur": 535.200000000259, "tid": 1, "ts": 2900002, "pid": 1, "args": {"0":"CAB-4cf882d1f515c6d0d19d185914f372df"}}
+,{"name": "Gather Objects AssetBundleWriteOperation", "ph": "X", "dur": 306.599999999889, "tid": 1, "ts": 2900018, "pid": 1, "args": {"0":"CAB-4cf882d1f515c6d0d19d185914f372df"}}
+,{"name": "Hashing Command", "ph": "X", "dur": 22.8000000001884, "tid": 1, "ts": 2900326, "pid": 1, "args": {"0":"CAB-4cf882d1f515c6d0d19d185914f372df"}}
+,{"name": "Hashing UsageSet", "ph": "X", "dur": 1.09999999995125, "tid": 1, "ts": 2900349, "pid": 1, "args": {"0":"CAB-4cf882d1f515c6d0d19d185914f372df"}}
+,{"name": "Hashing ReferenceMap", "ph": "X", "dur": 3.1000000003587, "tid": 1, "ts": 2900350, "pid": 1, "args": {"0":"CAB-4cf882d1f515c6d0d19d185914f372df"}}
+,{"name": "Hashing Info", "ph": "X", "dur": 17.2999999999774, "tid": 1, "ts": 2900354, "pid": 1, "args": {"0":"CAB-4cf882d1f515c6d0d19d185914f372df"}}
+,{"name": "Hashing Objects", "ph": "X", "dur": 97.9999999999563, "tid": 1, "ts": 2900371, "pid": 1, "args": {"0":"CAB-4cf882d1f515c6d0d19d185914f372df"}}
+,{"name": "GetCacheEntry", "ph": "X", "dur": 511.599999999817, "tid": 1, "ts": 2900539, "pid": 1, "args": {"0":"CAB-5e123ad6d9ae5423ecfd2cfa8a46bfd8"}}
+,{"name": "Gather Objects AssetBundleWriteOperation", "ph": "X", "dur": 282.600000000002, "tid": 1, "ts": 2900553, "pid": 1, "args": {"0":"CAB-5e123ad6d9ae5423ecfd2cfa8a46bfd8"}}
+,{"name": "Hashing Command", "ph": "X", "dur": 23.1000000003405, "tid": 1, "ts": 2900837, "pid": 1, "args": {"0":"CAB-5e123ad6d9ae5423ecfd2cfa8a46bfd8"}}
+,{"name": "Hashing UsageSet", "ph": "X", "dur": 1.29999999990105, "tid": 1, "ts": 2900860, "pid": 1, "args": {"0":"CAB-5e123ad6d9ae5423ecfd2cfa8a46bfd8"}}
+,{"name": "Hashing ReferenceMap", "ph": "X", "dur": 3.79999999995562, "tid": 1, "ts": 2900861, "pid": 1, "args": {"0":"CAB-5e123ad6d9ae5423ecfd2cfa8a46bfd8"}}
+,{"name": "Hashing Info", "ph": "X", "dur": 20.8000000002357, "tid": 1, "ts": 2900866, "pid": 1, "args": {"0":"CAB-5e123ad6d9ae5423ecfd2cfa8a46bfd8"}}
+,{"name": "Hashing Objects", "ph": "X", "dur": 97.2000000001572, "tid": 1, "ts": 2900887, "pid": 1, "args": {"0":"CAB-5e123ad6d9ae5423ecfd2cfa8a46bfd8"}}
+,{"name": "GetCacheEntry", "ph": "X", "dur": 368.599999999788, "tid": 1, "ts": 2901052, "pid": 1, "args": {"0":"CAB-50f8ccd4d91ebb2777f6e79c01f155cf"}}
+,{"name": "Gather Objects AssetBundleWriteOperation", "ph": "X", "dur": 140.499999999975, "tid": 1, "ts": 2901065, "pid": 1, "args": {"0":"CAB-50f8ccd4d91ebb2777f6e79c01f155cf"}}
+,{"name": "Hashing Command", "ph": "X", "dur": 21.6999999997824, "tid": 1, "ts": 2901206, "pid": 1, "args": {"0":"CAB-50f8ccd4d91ebb2777f6e79c01f155cf"}}
+,{"name": "Hashing UsageSet", "ph": "X", "dur": 1.20000000015352, "tid": 1, "ts": 2901228, "pid": 1, "args": {"0":"CAB-50f8ccd4d91ebb2777f6e79c01f155cf"}}
+,{"name": "Hashing ReferenceMap", "ph": "X", "dur": 3.99999999990541, "tid": 1, "ts": 2901230, "pid": 1, "args": {"0":"CAB-50f8ccd4d91ebb2777f6e79c01f155cf"}}
+,{"name": "Hashing Info", "ph": "X", "dur": 18.6000000003332, "tid": 1, "ts": 2901234, "pid": 1, "args": {"0":"CAB-50f8ccd4d91ebb2777f6e79c01f155cf"}}
+,{"name": "Hashing Objects", "ph": "X", "dur": 101.599999999962, "tid": 1, "ts": 2901253, "pid": 1, "args": {"0":"CAB-50f8ccd4d91ebb2777f6e79c01f155cf"}}
+,{"name": "GetCacheEntry", "ph": "X", "dur": 358.400000000074, "tid": 1, "ts": 2901421, "pid": 1, "args": {"0":"CAB-28c9448ef2db54da3e7e36f7ddaca42b"}}
+,{"name": "Gather Objects AssetBundleWriteOperation", "ph": "X", "dur": 133.400000000165, "tid": 1, "ts": 2901435, "pid": 1, "args": {"0":"CAB-28c9448ef2db54da3e7e36f7ddaca42b"}}
+,{"name": "Hashing Command", "ph": "X", "dur": 23.9000000001397, "tid": 1, "ts": 2901570, "pid": 1, "args": {"0":"CAB-28c9448ef2db54da3e7e36f7ddaca42b"}}
+,{"name": "Hashing UsageSet", "ph": "X", "dur": 1.09999999995125, "tid": 1, "ts": 2901594, "pid": 1, "args": {"0":"CAB-28c9448ef2db54da3e7e36f7ddaca42b"}}
+,{"name": "Hashing ReferenceMap", "ph": "X", "dur": 3.39999999960128, "tid": 1, "ts": 2901595, "pid": 1, "args": {"0":"CAB-28c9448ef2db54da3e7e36f7ddaca42b"}}
+,{"name": "Hashing Info", "ph": "X", "dur": 19.0999999999804, "tid": 1, "ts": 2901599, "pid": 1, "args": {"0":"CAB-28c9448ef2db54da3e7e36f7ddaca42b"}}
+,{"name": "Hashing Objects", "ph": "X", "dur": 96.8000000002576, "tid": 1, "ts": 2901618, "pid": 1, "args": {"0":"CAB-28c9448ef2db54da3e7e36f7ddaca42b"}}
+,{"name": "Load Cached Data", "ph": "X", "dur": 10478.0000000001, "tid": 1, "ts": 2901783, "pid": 1, "args": {"0":"Local Cache hit count: 5, Cache Server hit count: 0"}}
+,{"name": "LoadCachedData", "ph": "X", "dur": 10465.4999999998, "tid": 1, "ts": 2901785, "pid": 1, "args": {"0":"5 items", "1":"Time spent deserializing: 10ms", "2":"Local Cache hit count: 5"}}
+,{"name": "Read and deserialize cache info", "ph": "X", "dur": 10453.5999999998, "tid": 1, "ts": 2901789, "pid": 1}
+,{"name": "Check for changed dependencies", "ph": "X", "dur": 6.10000000006039, "tid": 1, "ts": 2912251, "pid": 1, "args": {"0":"Unchanged dependencies count: 5"}}
+,{"name": "Process Entries", "ph": "X", "dur": 1.00000000020373, "tid": 1, "ts": 2912268, "pid": 1}
+,{"name": "Process Cached Entries", "ph": "X", "dur": 2.29999999965003, "tid": 1, "ts": 2912269, "pid": 1}
+,{"name": "Saving to Cache", "ph": "X", "dur": 5.00000000010914, "tid": 1, "ts": 2912282, "pid": 1}
+,{"name": "Creating Cached Infos", "ph": "X", "dur": 3.1000000003587, "tid": 1, "ts": 2912283, "pid": 1}
+,{"name": "ArchiveAndCompressBundles", "ph": "X", "dur": 13761.1999999999, "tid": 1, "ts": 2912443, "pid": 1}
+,{"name": "CreateWorkItems", "ph": "X", "dur": 47.4000000003798, "tid": 1, "ts": 2912448, "pid": 1}
+,{"name": "Creating Cache Entries", "ph": "X", "dur": 176.300000000083, "tid": 1, "ts": 2912497, "pid": 1}
+,{"name": "Load Cached Data", "ph": "X", "dur": 5798.09999999998, "tid": 1, "ts": 2912673, "pid": 1, "args": {"0":"Local Cache hit count: 5, Cache Server hit count: 0"}}
+,{"name": "LoadCachedData", "ph": "X", "dur": 5786.10000000026, "tid": 1, "ts": 2912674, "pid": 1, "args": {"0":"5 items", "1":"Time spent deserializing: 5ms", "2":"Local Cache hit count: 5"}}
+,{"name": "Read and deserialize cache info", "ph": "X", "dur": 5774.10000000009, "tid": 1, "ts": 2912679, "pid": 1}
+,{"name": "Check for changed dependencies", "ph": "X", "dur": 5.29999999980646, "tid": 1, "ts": 2918461, "pid": 1, "args": {"0":"Unchanged dependencies count: 5"}}
+,{"name": "CopyingCachedFiles", "ph": "X", "dur": 7241.10000000019, "tid": 1, "ts": 2918587, "pid": 1}
+,{"name": "Copying From Cache", "ph": "X", "dur": 1373.60000000035, "tid": 1, "ts": 2918779, "pid": 1, "args": {"0":"C:\\Users\\MAXIM\\TechDesignTestProject_Bozhik\\TechDesignTestProject\\Library\\BuildCache\\19\\19e948726f9307c629d96106005c0b2e\\1251d09cccf0f889c0131e8061968bbd\\f71f9f1ac0f611a040cf25d6aa96d5c7 -> C:\\Users\\MAXIM\\TechDesignTestProject_Bozhik\\TechDesignTestProject\\Temp\\com.unity.addressables\\AssetBundles\\6275f8a320cae7ec109fff6c33fc27f9.bundle"}}
+,{"name": "Copying From Cache", "ph": "X", "dur": 1201.09999999977, "tid": 1, "ts": 2920317, "pid": 1, "args": {"0":"C:\\Users\\MAXIM\\TechDesignTestProject_Bozhik\\TechDesignTestProject\\Library\\BuildCache\\d1\\d139265c9eb09d1046ee2a858fc0979e\\be8774dd296e2aa6e8ad8acf78c1b968\\4cf882d1f515c6d0d19d185914f372df -> C:\\Users\\MAXIM\\TechDesignTestProject_Bozhik\\TechDesignTestProject\\Temp\\com.unity.addressables\\AssetBundles\\4c32b5aaedd150987157147c6a9bc1fb.bundle"}}
+,{"name": "Copying From Cache", "ph": "X", "dur": 1379.40000000026, "tid": 1, "ts": 2921681, "pid": 1, "args": {"0":"C:\\Users\\MAXIM\\TechDesignTestProject_Bozhik\\TechDesignTestProject\\Library\\BuildCache\\98\\98ce7c67dfc269e05cf728e2f2e6cb61\\a2b8a02b13f3ef2ca4777ff070decbd4\\5e123ad6d9ae5423ecfd2cfa8a46bfd8 -> C:\\Users\\MAXIM\\TechDesignTestProject_Bozhik\\TechDesignTestProject\\Temp\\com.unity.addressables\\AssetBundles\\6e3cecdf0de9f55656c729161172538d.bundle"}}
+,{"name": "Copying From Cache", "ph": "X", "dur": 1181.00000000004, "tid": 1, "ts": 2923239, "pid": 1, "args": {"0":"C:\\Users\\MAXIM\\TechDesignTestProject_Bozhik\\TechDesignTestProject\\Library\\BuildCache\\ff\\ff5c898226694621838b5ad72cd36f3c\\8d95ec51b59922f00cbaaf398a1864b1\\50f8ccd4d91ebb2777f6e79c01f155cf -> C:\\Users\\MAXIM\\TechDesignTestProject_Bozhik\\TechDesignTestProject\\Temp\\com.unity.addressables\\AssetBundles\\63c472de51c95b3da8e2910af7c71481.bundle"}}
+,{"name": "Copying From Cache", "ph": "X", "dur": 1242.09999999994, "tid": 1, "ts": 2924585, "pid": 1, "args": {"0":"C:\\Users\\MAXIM\\TechDesignTestProject_Bozhik\\TechDesignTestProject\\Library\\BuildCache\\ba\\ba80fdf699cea3d5ec1ed2a581c2da8a\\a0aecbcdedd4beb92152ef920eb6f02c\\28c9448ef2db54da3e7e36f7ddaca42b -> C:\\Users\\MAXIM\\TechDesignTestProject_Bozhik\\TechDesignTestProject\\Temp\\com.unity.addressables\\AssetBundles\\5d547ec55a07a39e60483afc93c538e9.bundle"}}
+,{"name": "ArchiveItems", "ph": "X", "dur": 207.099999999627, "tid": 1, "ts": 2925830, "pid": 1, "args": {"0":"Archiving 0 Bundles"}}
+,{"name": "PostArchiveProcessing", "ph": "X", "dur": 140.800000000127, "tid": 1, "ts": 2926047, "pid": 1}
+,{"name": "Copying To Cache", "ph": "X", "dur": 5.20000000005894, "tid": 1, "ts": 2926189, "pid": 1}
+,{"name": "GenerateLocationListsTask", "ph": "X", "dur": 2609.39999999982, "tid": 1, "ts": 2926338, "pid": 1}
+,{"name": "Calculate Bundle Dependencies", "ph": "X", "dur": 15.6999999999243, "tid": 1, "ts": 2926355, "pid": 1}
+,{"name": "ExpandDependencies", "ph": "X", "dur": 10.8000000000175, "tid": 1, "ts": 2926371, "pid": 1}
+,{"name": "Calculate Locations", "ph": "X", "dur": 2104.40000000017, "tid": 1, "ts": 2926715, "pid": 1}
+,{"name": "PostWritingCallback", "ph": "X", "dur": 1.50000000030559, "tid": 1, "ts": 2929060, "pid": 1}
+,{"name": "ExtractDataTask", "ph": "X", "dur": 16.3000000002285, "tid": 1, "ts": 2929125, "pid": 1}
+,{"name": "PostProcessBundles", "ph": "X", "dur": 9456.69999999973, "tid": 1, "ts": 3015861, "pid": 1}
+,{"name": "Localization-Locales", "ph": "X", "dur": 2625.2000000004, "tid": 1, "ts": 3016722, "pid": 1}
+,{"name": "Move File", "ph": "X", "dur": 1963.29999999989, "tid": 1, "ts": 3017376, "pid": 1, "args": {"0":"Temp/com.unity.addressables/AssetBundles\\6275f8a320cae7ec109fff6c33fc27f9.bundle -> Library/com.unity.addressables/aa/Windows/StandaloneWindows64\\localization-locales_assets_all_c02b55d68c61ce91fdfd68cebe12ac30.bundle"}}
+,{"name": "Localization-Assets-Shared", "ph": "X", "dur": 1661.00000000006, "tid": 1, "ts": 3019355, "pid": 1}
+,{"name": "Move File", "ph": "X", "dur": 1378.99999999991, "tid": 1, "ts": 3019632, "pid": 1, "args": {"0":"Temp/com.unity.addressables/AssetBundles\\4c32b5aaedd150987157147c6a9bc1fb.bundle -> Library/com.unity.addressables/aa/Windows/StandaloneWindows64\\localization-assets-shared_assets_all_a90814191c548da6a3e4f6568e7515cc.bundle"}}
+,{"name": "Localization-String-Tables-English (en)", "ph": "X", "dur": 1435.4000000003, "tid": 1, "ts": 3021028, "pid": 1}
+,{"name": "Move File", "ph": "X", "dur": 1135.09999999997, "tid": 1, "ts": 3021323, "pid": 1, "args": {"0":"Temp/com.unity.addressables/AssetBundles\\6e3cecdf0de9f55656c729161172538d.bundle -> Library/com.unity.addressables/aa/Windows/StandaloneWindows64\\localization-string-tables-english(en)_assets_all_6921f7621a219fb73ccc3fe02b09362b.bundle"}}
+,{"name": "Localization-String-Tables-Russian (ru)", "ph": "X", "dur": 1416.39999999961, "tid": 1, "ts": 3022473, "pid": 1}
+,{"name": "Move File", "ph": "X", "dur": 1121.70000000015, "tid": 1, "ts": 3022759, "pid": 1, "args": {"0":"Temp/com.unity.addressables/AssetBundles\\63c472de51c95b3da8e2910af7c71481.bundle -> Library/com.unity.addressables/aa/Windows/StandaloneWindows64\\localization-string-tables-russian(ru)_assets_all_d68ae5f277b14dca4d5d1511847dc528.bundle"}}
+,{"name": "Localization-String-Tables-German (de)", "ph": "X", "dur": 1413.59999999986, "tid": 1, "ts": 3023897, "pid": 1}
+,{"name": "Move File", "ph": "X", "dur": 1125.40000000035, "tid": 1, "ts": 3024179, "pid": 1, "args": {"0":"Temp/com.unity.addressables/AssetBundles\\5d547ec55a07a39e60483afc93c538e9.bundle -> Library/com.unity.addressables/aa/Windows/StandaloneWindows64\\localization-string-tables-german(de)_assets_all_e1685f4714107b19c0a16562d3c63144.bundle"}}
+,{"name": "Process Catalog Entries", "ph": "X", "dur": 4465.19999999964, "tid": 1, "ts": 3025318, "pid": 1}
+,{"name": "Generate Build Layout", "ph": "X", "dur": 2.3999999998523, "tid": 1, "ts": 3029784, "pid": 1}
+,{"name": "Generate Catalog", "ph": "X", "dur": 2434.0000000002, "tid": 1, "ts": 3029787, "pid": 1}
+,{"name": "Generate link", "ph": "X", "dur": 1871.5000000002, "tid": 1, "ts": 3032222, "pid": 1}
+,{"name": "Generate Settings", "ph": "X", "dur": 1222.49999999985, "tid": 1, "ts": 3034103, "pid": 1}
+,{"name": "Generate Content Update State", "ph": "X", "dur": 3148.80000000039, "tid": 1, "ts": 3035327, "pid": 1}
+,{"name": "Get Assets", "ph": "X", "dur": 79.2999999998756, "tid": 1, "ts": 3035330, "pid": 1}
+]
+}
