@@ -375,7 +375,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Scripts/StartOnClickAnimation.cs"
+"Assets/Scripts/load_scene.cs"
+"Assets/Scripts/perform_click_on_sprite.cs"
+"Assets/Scripts/start_on_click_animation.cs"
 -langversion:9.0
 
 /deterministic
